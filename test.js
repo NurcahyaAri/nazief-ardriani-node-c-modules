@@ -1,3 +1,3 @@
-const { Stemming } = require('./build/Release/addon.node');
+const { Stemming } = require('./index');
 
-console.log(Stemming("memakan"));
+console.log(Stemming("Makanan"));
