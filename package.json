@@ -1,0 +1,18 @@
+{
+  "name": "stemming",
+  "version": "1.0.0",
+  "description": "stemming using nazief adriani algorithm",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "nan": "^2.11.1",
+    "node-gyp": "^3.8.0"
+  },
+  "gypfile": true,
+  "author": "NurcahyaAri",
+  "license": "MIT"
+}
